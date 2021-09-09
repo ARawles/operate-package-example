@@ -1,11 +1,20 @@
 Package: operate.package.example
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Example Package for the opeRate Book
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person("Adam", "Rawles", email = "adamrawles@hotmail.co.uk", role = c("aut", "cre")) 
+Description: This is an example package utilising the skills and concepts described in the opeRate book (<https://operate.arawles.co.uk/>).
+    It functions as an example of using the 'projects-as-packages' philosophy to improve the readability and replicability
+    of your code.
+License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    dplyr,
+    tidyr,
+    readr,
+    ggplot2,
+    tidyselect
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
